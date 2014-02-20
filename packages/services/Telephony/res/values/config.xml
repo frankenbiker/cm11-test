@@ -90,10 +90,14 @@
 
     <!-- Determines if device implements a noise suppression device for in call audio-->
     <bool name="has_in_call_noise_suppression">true</bool>
-  <!-- changed from false -->
+    <!-- changed from false -->
+  
+  
     <!-- Audio parameter for setting noise suppression-->
     <string name="in_call_noise_suppression_audioparameter">dualmic_enabled=true=false</string>
-  <!-- changed from blah_blah=yes=no-->
+    <!-- changed from blah_blah=yes=no-->
+  
+  
     <!-- Determines if the current device should allow emergency numbers
          to be logged in the Call Log.
          (Some carriers require that emergency calls *not* be logged,
